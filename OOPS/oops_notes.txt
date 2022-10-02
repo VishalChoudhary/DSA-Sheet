@@ -1,0 +1,14 @@
+Q1. Why is structure called user-defined data type?
+It is a user-defined data type, which holds its own data members and member functions,which can be accessed and used by creating an instance of that class 
+i.e; object.
+
+Q2. Why array and pointer is derived data type?
+An array and pointer is a derived data type because it cannot be defined on its own, it is a collection of basic data types usually, such as integers, doubles, 
+floats, booleans.
+
+Static Function Members
+By declaring a function member as static, you make it independent of any particular object of the class. A static member function can be called even if 
+no objects of the class exist and the static functions are accessed using only the class name and the scope resolution operator ::.
+
+What is a static member in C++?
+When a data member is declared as static , only one copy of the data is maintained for all objects of the class.
