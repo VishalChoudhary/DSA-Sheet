@@ -24,3 +24,4 @@ int main(){
     int res=countSubs(0,k,0,arr,n);
     cout<<res;
 }
+
