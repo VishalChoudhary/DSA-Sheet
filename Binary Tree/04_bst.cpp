@@ -7,6 +7,7 @@ struct node
     int data;
     struct node *left;
     struct node *right;
+    //constructor to intake value
     node(int data){
         this->data=data;
         this->left=NULL;
@@ -14,11 +15,12 @@ struct node
     }
 };
 
+//function to build tree
 struct node *buildtree(node* root){
     cout<<"Enter the data: "<<endl;
     int idata;
     cin>>idata;
-    root=new struct node(idata);
+    root=new struct node(idata);  //dynamic memory allocation
 
     if(idata==-1)
         return NULL;
