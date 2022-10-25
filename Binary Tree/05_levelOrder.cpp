@@ -58,7 +58,7 @@ void levelOrder(node *root){
 
 int main(){
     struct node *root=NULL;
-    buildTree(root);
+    root=buildTree(root);
     levelOrder(root);
     return 0;
 }
