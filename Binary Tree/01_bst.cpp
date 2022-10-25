@@ -5,6 +5,7 @@ struct node{
     int data;
     struct node *left;
     struct node *right;
+    //using constructor instead of function to take data
     node(int val){
         data=val;
         left=right=NULL;
@@ -16,5 +17,6 @@ int main(){
     root->left=new node(2);
     root->right=new node(3);
     root->left->right=new node(5);
+    cout<<root->left->data;
     return 0;
 }
